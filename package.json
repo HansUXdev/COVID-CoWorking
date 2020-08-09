@@ -1,14 +1,24 @@
 {
     "name": "covid-working",
+    "publisher": "HansBashesMS",
     "displayName": "",
-    "description": " Extensions that help to keep remote friends/co-workers/family connected.",
-    "version": "0.0.1",
+    "description": "Extension Pack that helps to keep remote friends/co-workers/family connected.",
+    "version": "0.0.2",
     "engines": {
         "vscode": "^1.47.0"
     },
     "categories": [
         "Extension Packs"
     ],
+    "scripts": {
+        "mac-nuke":"rm -rf  ~/.vscode/extensions/*",
+        "git": "git status && git add -A && git commit -m \"changed these files\" && git push",
+        "pub": "vsce publish"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/HansUXdev/covid-working.git"
+    },
     "extensionPack": [ 
         "aaron-bond.better-comments", 
         "AlexArthurs.todo-pusher", 

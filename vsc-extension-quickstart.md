@@ -1,5 +1,7 @@
 # Welcome to your VS Code Extension Pack
 
+Your documentation is literal maze of confusion and errors and needless steps...
+
 ## What's in the folder
 
 * This folder contains all of the files necessary for your extension pack.
